@@ -1,152 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Baccarat - $20 Kitchen Discount</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Baccarat — $20 Welcome Offer</title>
+  <style>
+    /* --- Reset / Base --- */
+    html,body{margin:0;padding:0;background:#f2f2f2;color:#000}
+    img{max-width:100%;height:auto;border:0;display:block}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:640px;margin:0 auto;background:#fff}
+    .inner{padding:0 24px}
+    .center{text-align:center}
+    .mt-8{margin-top:8px}.mt-16{margin-top:16px}.mt-24{margin-top:24px}.mt-32{margin-top:32px}
+    .mb-8{margin-bottom:8px}.mb-16{margin-bottom:16px}.mb-24{margin-bottom:24px}.mb-32{margin-bottom:32px}
+    .hr{height:1px;background:#d5d3d0;border:0;margin:16px 0}
+    .btn{display:inline-block;padding:12px 22px;background:#000;color:#fff;font-weight:700;border:1px solid #000}
+    .badge{display:inline-block;padding:10px 22px;border:1px dashed #ed1b24;border-radius:6px;color:#ed1b24;font-weight:700}
+    .note{font-size:12px;color:#000}
+    h1,h2,h3,p,small{font-family:Arial,Helvetica,sans-serif;margin:0}
+    h1{font-size:28px;letter-spacing:.5px}
+    h2{font-size:22px}
+    h3{font-size:16px}
+    p{font-size:16px;line-height:1.45}
+    small{font-size:12px;line-height:1.45}
+
+    /* --- Header --- */
+    .header{padding:18px 0}
+    .logo{margin:0 auto 8px auto}
+
+    /* --- Hero banner(s) --- */
+    .fullbleed{width:100%}
+
+    /* --- Category grid --- */
+    .cat-title{font-size:28px;font-weight:800;letter-spacing:.6px}
+    .grid{display:grid;gap:18px}
+    .grid-2{grid-template-columns:repeat(2,1fr)}
+    .cat-btn{
+      border:1px solid #d9d9d9;border-radius:6px;padding:16px 8px;
+      text-align:center;font-weight:600;background:#fff
+    }
+
+    /* --- Product list --- */
+    .section-title{font-size:22px;font-weight:800;letter-spacing:.5px}
+    .prod-row{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+    .prod{text-align:center;padding:8px}
+    .prod-name{font-size:14px;margin-top:8px}
+    .price{font-size:16px;font-weight:700;margin-top:6px}
+    .was{font-size:12px;text-decoration:line-through;color:#666;margin-top:2px}
+
+    /* --- Feature tiles (2x2) --- */
+    .tiles{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+    .tile img{width:100%}
+
+    /* --- Help / contact --- */
+    .help p{font-size:16px}
+    .help a{text-decoration:underline}
+
+    /* --- Socials & payments --- */
+    .icons{display:flex;gap:18px;justify-content:center;align-items:center;flex-wrap:wrap}
+    .payicons{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap}
+
+    /* --- Footer --- */
+    .footer{background:#fff;padding:24px}
+    .address{font-size:12px}
+    .tcs{font-size:12px}
+    .tcs a{text-decoration:underline}
+
+    /* --- Responsive --- */
+    @media (max-width:620px){
+      .inner{padding:0 16px}
+      .grid-2{grid-template-columns:1fr}
+      .prod-row{grid-template-columns:1fr 1fr}
+      .cat-title{font-size:24px}
+    }
+    @media (max-width:420px){
+      .prod-row{grid-template-columns:1fr}
+    }
+  </style>
 </head>
-<body style="margin:0; padding:0; background-color:#f2f2f2;">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f2f2">
-    <tr>
-      <td align="center">
-        <table width="630" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="margin:0 auto;">
-          
-          <!-- View Online -->
-          <tr>
-            <td align="center" style="padding:10px;">
-              <a href="https://www.baccarat.com.au" style="font-family:Arial, sans-serif;font-size:12px;color:#000;text-decoration:underline;">View online</a>
-            </td>
-          </tr>
-          
-          <!-- Logo -->
-          <tr>
-            <td align="center" style="padding:15px 0;">
-              <a href="https://www.baccarat.com.au">
-                <img src="https://link.baccarat.com.au/custloads/1026734832/vce/Baccarat_Header.jpg" alt="Baccarat" width="236" border="0" style="display:block;">
-              </a>
-            </td>
-          </tr>
-          
-          <!-- Nav -->
-          <tr>
-            <td align="center" style="font-family:Arial, sans-serif;font-size:14px;color:#000; padding:10px 0;">
-              <a href="https://www.baccarat.com.au/knives" style="text-decoration:none; color:#000;">Knives</a> | 
-              <a href="https://www.baccarat.com.au/cookware" style="text-decoration:none; color:#000;">Cookware</a> | 
-              <a href="https://www.baccarat.com.au/kitchenware" style="text-decoration:none; color:#000;">Kitchenware</a> | 
-              <a href="https://www.baccarat.com.au/appliances" style="text-decoration:none; color:#000;">Appliances</a> | 
-              <a href="https://www.baccarat.com.au/the-custom-chef" style="text-decoration:none; color:#000;">The Custom Chef™</a> | 
-              <a href="https://www.baccarat.com.au/sale" style="text-decoration:none; color:#000;">Sale</a>
-            </td>
-          </tr>
-          
-          <!-- Hero -->
-          <tr>
-            <td align="center">
-              <img src="https://link.baccarat.com.au/custloads/1026734832/md_443972.jpg" alt="Australia's Number 1 Cookware Brand" width="600" border="0" style="display:block; max-width:100%;">
-            </td>
-          </tr>
-          
-          <!-- Sub Hero -->
-          <tr>
-            <td align="center">
-              <img src="https://link.baccarat.com.au/custloads/1026734832/md_614270.jpg" alt="Built For Professional Chefs" width="620" border="0" style="display:block; max-width:100%;">
-            </td>
-          </tr>
-          
-          <!-- Body Text -->
-          <tr>
-            <td align="center" style="padding:30px 20px; font-family:Arial, sans-serif; font-size:18px; color:#000; line-height:1.4;">
-              Still thinking it over? Your $20 welcome offer is ending soon!<br><br>
-              Treat your kitchen to cookware that’s reliable, affordable, and ready for anything.
-            </td>
-          </tr>
-          
-          <!-- Promo Code -->
-          <tr>
-            <td align="center" style="padding:20px;">
-              <table border="0" cellspacing="0" cellpadding="0" style="border:1px dashed red; border-radius:6px;">
-                <tr>
-                  <td style="padding:10px 25px; font-family:Arial, sans-serif; font-size:20px; font-weight:bold; color:#ed1b24;">
-                    USE CODE: WDAJQN1P57
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          
-          <!-- CTA -->
-          <tr>
-            <td align="center" style="padding:20px;">
-              <a href="https://www.baccarat.com.au" style="background-color:#000; color:#fff; font-family:Arial, sans-serif; font-size:16px; font-weight:bold; text-decoration:none; padding:12px 24px; display:inline-block;">
-                REDEEM YOUR OFFER
-              </a>
-            </td>
-          </tr>
-          
-          <!-- Disclaimer -->
-          <tr>
-            <td align="center" style="padding:10px 20px; font-family:Arial, sans-serif; font-size:12px; color:#000;">
-              Minimum Spend $100. Excludes Kitchen Appliances, Hot Offers.
-            </td>
-          </tr>
-          
-          <!-- Shop by Category -->
-          <tr>
-            <td align="center">
-              <img src="https://link.baccarat.com.au/custloads/1026734832/vce/shop_category.jpg" alt="Shop by Category" width="600" border="0" style="display:block; max-width:100%;">
-            </td>
-          </tr>
-          <tr>
-            <td align="center" style="padding:20px;">
-              <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                <tr>
-                  <td align="center">
-                    <img src="https://link.baccarat.com.au/custloads/1026734832/vce/cookware_sets.jpg" alt="Cookware Sets" width="300" border="0">
-                  </td>
-                  <td align="center">
-                    <img src="https://link.baccarat.com.au/custloads/1026734832/vce/knife_blocks.jpg" alt="Knife Blocks" width="300" border="0">
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          
-          <!-- Recommended Products -->
-          <tr>
-            <td align="center" style="padding:20px; font-family:Arial, sans-serif; font-size:24px; color:#000; font-weight:bold;">
-              RECOMMENDED PRODUCTS
-            </td>
-          </tr>
-          <tr>
-            <td align="center" style="padding:20px;">
-              <table cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td align="center"><img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/1.jpg" alt="Product 1" width="172"></td>
-                  <td width="20"></td>
-                  <td align="center"><img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/2.jpg" alt="Product 2" width="172"></td>
-                  <td width="20"></td>
-                  <td align="center"><img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/3.jpg" alt="Product 3" width="172"></td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          
-          <!-- Footer -->
-          <tr>
-            <td align="center" bgcolor="#e3e3e3" style="padding:30px; font-family:Arial, sans-serif; font-size:12px; color:#000;">
-              <p><strong>Need help or advice?</strong><br>
-              Live Chat: <a href="https://www.baccarat.com.au" style="color:#000; text-decoration:none;">baccarat.com.au</a><br>
-              9am - 9:30pm AEDT/AEST Mon-Fri<br>
-              10am - 5:30pm AEDT/AEST Sat-Sun</p>
-              <p>Mailing Address: Baccarat Corporate | PO Box 7224 | Melbourne 3004 | Australia</p>
-              <p><a href="https://www.baccarat.com.au/terms" style="color:#000; text-decoration:underline;">Terms & Conditions</a></p>
-              <p>To unsubscribe or update preferences, please <a href="#" style="color:#000; text-decoration:underline;">click here</a>.</p>
-            </td>
-          </tr>
-          
-        </table>
-      </td>
-    </tr>
-  </table>
+<body>
+  <main class="wrap">
+
+    <!-- Header -->
+    <header class="header center">
+      <a href="https://www.baccarat.com.au/" class="logo">
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/Baccarat_Header.jpg" alt="Baccarat" width="236" />
+      </a>
+      <p class="mt-16">
+        Still thinking it over? Your $20 welcome offer is ending soon!
+        Treat your kitchen to cookware that’s reliable, affordable, and ready for anything.
+      </p>
+      <div class="mt-16">
+        <span class="badge">USE CODE: WDAJQN1P57</span>
+      </div>
+      <div class="mt-16">
+        <a class="btn" href="https://www.baccarat.com.au/">REDEEM YOUR OFFER</a>
+      </div>
+      <p class="note mt-16">Minimum Spend $100. Excludes Kitchen Appliances, Hot Offers.</p>
+    </header>
+
+    <!-- Top banners -->
+    <a href="https://www.baccarat.com.au/">
+      <img class="fullbleed" src="https://link.baccarat.com.au/custloads/1026734832/md_443972.jpg" alt="Australia's Number 1 Cookware Brand — Free Shipping on orders over $130" />
+    </a>
+    <a href="https://www.baccarat.com.au/">
+      <img class="fullbleed" src="https://link.baccarat.com.au/custloads/1026734832/md_614270.jpg" alt="Baccarat - Built For Professional Chefs" />
+    </a>
+
+    <!-- Shop by Category -->
+    <section class="inner mt-32">
+      <h1 class="center cat-title">SHOP BY CATEGORY</h1>
+
+      <div class="grid grid-2 mt-24">
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/cookware-sets">COOKWARE SETS</a>
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/knife-blocks">KNIFE BLOCKS</a>
+
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/cookware">LOOSE COOKWARE</a>
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/knives">LOOSE KNIVES</a>
+
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/bakeware">BAKEWARE</a>
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/kitchen-appliances">KITCHEN APPLIANCES</a>
+
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/tea-coffee">TEA &amp; COFFEE</a>
+        <a class="cat-btn" href="https://www.baccarat.com.au/collections/pizza-pasta">PIZZA &amp; PASTA TOOLS</a>
+
+        <a class="cat-btn" style="grid-column:1/-1" href="https://www.baccarat.com.au/collections/gift-with-purchase">GIFT WITH PURCHASE</a>
+      </div>
+    </section>
+
+    <!-- Recommended Products -->
+    <section class="inner mt-32">
+      <h2 class="center section-title">RECOMMENDED PRODUCTS</h2>
+      <div class="hr"></div>
+
+      <div class="prod-row">
+        <!-- Product 1 -->
+        <article class="prod">
+          <a href="https://www.baccarat.com.au/">
+            <img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/1.jpg" alt="Baccarat iD3 Hard Anodised Non Stick" />
+          </a>
+          <p class="prod-name">Baccarat iD3 Hard Anodised Non Stick</p>
+          <p class="price">$ 129.99</p>
+          <p class="was">$ 324.99</p>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="prod">
+          <a href="https://www.baccarat.com.au/">
+            <img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/2.jpg" alt="Baccarat iD3 Stainless Steel Frypan 20cm" />
+          </a>
+          <p class="prod-name">Baccarat iD3 Stainless Steel Frypan 20cm</p>
+          <p class="price">$ 59.99</p>
+          <p class="was">$ 119.99</p>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="prod">
+          <a href="https://www.baccarat.com.au/">
+            <img src="https://link.baccarat.com.au/predict/recommender/1EEFB611A480BA6B/2v4kmi/3.jpg" alt="Baccarat Water Resistant Bamboo" />
+          </a>
+          <p class="prod-name">Baccarat Water Resistant Bamboo</p>
+          <p class="price">$ 16.99</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Feature tiles -->
+    <section class="inner mt-32">
+      <div class="tiles">
+        <a class="tile" href="https://www.baccarat.com.au/">
+          <img src="https://link.baccarat.com.au/custloads/1026734832/md_443993.jpg" alt="Lifetime Guarantee" />
+        </a>
+        <a class="tile" href="https://www.baccarat.com.au/">
+          <img src="https://link.baccarat.com.au/custloads/1026734832/md_443992.jpg" alt="Free Shipping" />
+        </a>
+        <a class="tile" href="https://www.baccarat.com.au/">
+          <img src="https://link.baccarat.com.au/custloads/1026734832/md_443996.jpg" alt="Afterpay" />
+        </a>
+        <a class="tile" href="https://www.baccarat.com.au/">
+          <img src="https://link.baccarat.com.au/custloads/1026734832/md_443995.jpg" alt="The Custom Chef" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Help / Contact -->
+    <section class="inner help mt-32 center">
+      <h3>Need help or advice?</h3>
+      <p class="mt-8">
+        Live Chat : <a href="https://www.baccarat.com.au/">baccarat.com.au</a><br/>
+        9am - 9:30pm AEDT / AEST Mon-Fri<br/>
+        10am - 5:30pm AEDT / AEST Sat and Sun
+      </p>
+      <p class="mt-16">
+        <a href="https://www.baccarat.com.au/pages/contact-us">Click here to Contact Customer Service</a>
+      </p>
+    </section>
+
+    <!-- Socials -->
+    <section class="inner mt-24 center">
+      <div class="icons">
+        <a href="https://www.facebook.com/"><img src="https://link.baccarat.com.au/custloads/1026734832/vce/facebook.png" width="38" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/"><img src="https://link.baccarat.com.au/custloads/1026734832/vce/instagram.png" width="38" alt="Instagram" /></a>
+        <a href="https://www.pinterest.com/"><img src="https://link.baccarat.com.au/custloads/1026734832/vce/pinterest.png" width="38" alt="Pinterest" /></a>
+        <a href="https://www.youtube.com/"><img src="https://link.baccarat.com.au/custloads/1026734832/vce/youtube.png" width="38" alt="YouTube" /></a>
+      </div>
+    </section>
+
+    <!-- Payment methods -->
+    <section class="inner mt-16">
+      <div class="payicons">
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/afterpay1.png" width="65" alt="Afterpay" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/amex1.png" width="51" alt="American Express" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/paypal1.png" width="43" alt="PayPal" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/applepay1.png" width="37" alt="Apple Pay" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/visa1.png" width="35" alt="Visa" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/mastercard1.png" width="23" alt="Mastercard" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/googlepay1.png" width="46" alt="Google Pay" />
+        <img src="https://link.baccarat.com.au/custloads/1026734832/vce/zip.png" width="54" alt="Zip" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer center">
+      <p class="address">Mailing Address: Baccarat Corporate | Po Box 7224 | Melbourne 3004 | Australia</p>
+      <p class="tcs mt-16">
+        <strong>Terms &amp; Conditions:</strong>
+        *Offer available online only and valid for one month from the date of this email.
+        Offer valid strictly while stocks last. Saving is calculated off the RRP. No further discounts apply.
+        Baccarat® reserves the right to extend or withdraw the offer at any time without notice. Prices as marked online.
+        Not valid on a prior purchases. Any coupon codes, for example free shipping or discount offers, are valid at the time of order placement only and must be entered in correctly at the relevant point in the payment process for you to be eligible for the offer promoted by the coupon. Coupon offers will not be valid or honoured on orders successfully placed without using the relevant or correct code. The Baccarat® Terms and Conditions apply to any purchases and any request for refund. 
+        <a href="https://www.baccarat.com.au/pages/terms-and-conditions">click here for Terms &amp; Conditions</a>.
+        Use of Afterpay is subject to their own terms and conditions and charges.
+      </p>
+      <p class="tcs mt-16">
+        To unsubscribe from our mailing list or update your preferences, please
+        <a href="https://www.baccarat.com.au/pages/unsubscribe">click here</a>.
+      </p>
+    </footer>
+
+  </main>
 </body>
 </html>
